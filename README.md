@@ -7,6 +7,7 @@ Consultas pelo Postman:
 POST: localhost:8080/hospedes/cadastrar-hospede (é possível cadastrar um hóspede no hotel, da seguinte maneira): 
 
 {
+
     "nome": "Fulano",
     
     "documento": "987654321",
@@ -19,13 +20,18 @@ POST: localhost:8080/hospedes/checkin (é possível fazer o checkin passando um 
 
 {
   "hospede": {
+  
     "nome": "Fulano",
     "documento": "987654321",
     "telefone": "2188996655"
   },
+  
   "dataEntrada": "2023-10-15T08:00:00",
+  
   "dataSaida": "2023-10-21T10:17:00",
+  
   "adicionalVeiculo": false
+  
 }
 
 GET: localhost:8080/hospedes/checkin/{hospede-id} é possível ver a situação do check in
