@@ -5,12 +5,15 @@
 Consultas pelo Postman:
 
 POST: localhost:8080/hospedes/cadastrar-hospede (é possível cadastrar um hóspede no hotel, da seguinte maneira): 
+
 {
     "nome": "Fulano",
     "documento": "987654321",
     "telefone": "219887766"
 }
+
 POST: localhost:8080/hospedes/checkin (é possível fazer o checkin passando um JSON como o seguinte) :
+
 {
   "hospede": {
     "nome": "Fulano",
