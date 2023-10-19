@@ -1,6 +1,6 @@
 # Projeto Desafio Backend Senior - Sergio
 
-Necessário fazer a configuração do application.propeties para usuário e senha do banco.
+## Necessário fazer a configuração do application.propeties para usuário e senha do banco.
 
 Consultas pelo Postman:
 POST: localhost:8080/hospedes/cadastrar-hospede (é possível cadastrar um hóspede no hotel, da seguinte maneira): 
