@@ -25,14 +25,14 @@ POST: localhost:8080/hospedes/checkin (é possível fazer o checkin passando um 
   "adicionalVeiculo": false  
 }
 
-GET: localhost:8080/hospedes/checkin/{hospede-id} é possível ver a situação do check in
+Para ver a situação do check in -> GET: localhost:8080/hospedes/checkin/{hospede-id} 
 
-GET: localhost:8080/hospedes/buscar-situacao-hospede/documento_hospede é possível buscar a situação atual de determinado hóspede.
+Para buscar a situação atual de determinado hóspede -> GET: localhost:8080/hospedes/buscar-situacao-hospede/documento_hospede 
 
-GET: localhost:8080/hospedes/buscar-hospede-nome/{nome} buscar hospede pelo nome
+Para buscar hospede pelo nome -> GET: localhost:8080/hospedes/buscar-hospede-nome/{nome} 
 
-GET: localhost:8080/hospedes/buscar-hospede-documento/{documento} buscar hospede pelo documento
+Para buscar hospede pelo documento -> GET: localhost:8080/hospedes/buscar-hospede-documento/{documento} 
 
-GET: localhost:8080/hospedes/buscar-hospede-telefone/{telefone} buscar hóspede pelo telefone
+Para buscar hóspede pelo telefone -> GET: localhost:8080/hospedes/buscar-hospede-telefone/{telefone} 
 
-GET: localhost:8080/hospedes/buscar-situacao-hospede/{hospedeId} buscar situação do hóspede
+Para buscar situação do hóspede -> GET: localhost:8080/hospedes/buscar-situacao-hospede/{hospedeId} 
