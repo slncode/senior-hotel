@@ -1,6 +1,6 @@
 # Projeto Desafio Backend Senior - Sergio
 
-## Necessário fazer a configuração do application.propeties para usuário e senha do banco.
+Necessário fazer a configuração do application.propeties para usuário e senha do banco.
 
 Consultas pelo Postman:
 
