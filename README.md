@@ -27,8 +27,8 @@ GET: localhost:8080/hospedes/buscar-situacao-hospede/documento_hospede é possí
 
 GET: localhost:8080/hospedes/buscar-hospede-nome/{nome} buscar hospede pelo nome
 
-GET: localhost:8080/hospedes/buscar-hospede-telefone/{documento} buscar hospede pelo documento
-
 GET: localhost:8080/hospedes/buscar-hospede-documento/{documento} buscar hospede pelo documento
 
 GET: localhost:8080/hospedes/buscar-hospede-telefone/{telefone} buscar hóspede pelo telefone
+
+GET: localhost:8080/hospedes/buscar-situacao-hospede/{hospedeId} buscar situação do hóspede
