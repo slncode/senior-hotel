@@ -145,10 +145,10 @@ public class HospedeResource {
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Hóspede não encontrado.");
 	}
 	
-	@GetMapping("/buscar-hospede-telefone/{documento}")
+	@GetMapping("/buscar-hospede-documento/{documento}")
 	public ResponseEntity<?> buscarHospedesPorDocoumento(@PathVariable Long documento) {
 		
-		Hospede hospede = hospedeRepository.buscarHospedesPeloTelefone(documento);
+		Hospede hospede = hospedeRepository.buscarHospedesPeloDocumento(documento);
 	    if (hospede != null) {
 	        return ResponseEntity.ok(hospede);
 	    }
